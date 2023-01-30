@@ -42,14 +42,19 @@ nav {
 
 h1 {
     padding: 50px 0px;
+    font-size: 75px;
 }
 
 .section-1 {
-    background-color: aqua;
+    background-color: #b4d0e7;
 }
 
 .bi-section {
     display: flex;
+}
+
+.font {
+    font-size: 18px;
 }
 
 .small-txt-flex, .small-img-text {
