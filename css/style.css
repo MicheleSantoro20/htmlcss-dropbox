@@ -5,7 +5,7 @@
 }
 
 body {
-    font-family: sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 nav {
@@ -26,6 +26,12 @@ nav {
 .blue-button {
     background-color: #0061ff;
     color: white;
+    display: inline-block;
+    padding: 10px 12px;
+}
+
+.button-space {
+    margin: 25px 0px;
 }
 
 .navSX, .navDX {
@@ -53,20 +59,36 @@ h1 {
     display: flex;
 }
 
+.section-1-container {
+    position: relative;
+}
+
+#down-arrow {
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    font-size: 50px;
+}
+
 .font {
     font-size: 18px;
 }
 
 .small-txt-flex, .small-img-text {
-    background-color: purple;
     height: 400px;
     width: 35%;
+    background-color: crimson;
 }
 
 .big-img-flex, .big-txt-flex{
     height: 400px;
     width: 65%;
-    background-color: brown;
+    background-color: green;
+}
+
+#section-1-img {
+    height: 115%;
+    width: 100%;
 }
 
 .section-2, .section-6, .section-7 {
@@ -75,6 +97,32 @@ h1 {
 
 h2 {
     padding-bottom: 50px;
+    font-size: 35px;
+}
+
+.section-2-selectors {
+    display: inline-block;
+    margin-right: 40px;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.bluecircle {
+    height: 22px;
+    width: 22px;
+    border-radius: 50%;
+    border: #0061ff 6px solid;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.graycircle {
+    height: 22px;
+    width: 22px;
+    border-radius: 50%;
+    border: gray 2px solid;
+    display: inline-block;
+    vertical-align: middle;
 }
 
 .section-2-plans {
@@ -88,6 +136,25 @@ h2 {
     width: 30%;
     height: 700px;
     background-color:darkolivegreen;
+    text-indent: 30px;
+}
+
+.plan-title {
+    text-align: center;
+    border: 2px solid gray;
+    padding: 5px 0px;
+    margin-bottom: 40px;
+    text-indent: 0px;
+}
+
+.plans h3 {
+    font-size: 23px;
+    margin-bottom: 18px;
+}
+
+.plans h5 {
+    margin-top: 10px;
+    color: gray;
 }
 
 .section-4, .section-5 {
