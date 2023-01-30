@@ -4,9 +4,12 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: sans-serif;
+}
+
 nav {
-    height: 100px;
-    background-color: red;
+    height: 80px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -15,10 +18,16 @@ nav {
 
 .navSX ul li, .navDX ul li{
     display: inline-block;
-    padding: 10px;
-    background-color: aquamarine;
+    padding: 5px 12px;
+    vertical-align: middle;
 
 }
+
+.blue-button {
+    background-color: #0061ff;
+    color: white;
+}
+
 .navSX, .navDX {
     margin: 0px 1%;
 }
