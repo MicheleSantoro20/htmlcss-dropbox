@@ -1,0 +1,19 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    height: 100px;
+    background-color: red;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.navSX ul li, .navDX ul li{
+    display: inline-block;
+    padding: 10px;
+}
