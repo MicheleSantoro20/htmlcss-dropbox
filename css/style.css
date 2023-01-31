@@ -157,7 +157,7 @@ h2 {
 
 .plan-title {
     text-align: center;
-    border: 2px solid gray;
+    border-bottom: 2px solid gray;
     padding: 5px 0px;
     margin-bottom: 40px;
     text-indent: 0px;
