@@ -352,6 +352,21 @@ h3 {
     margin-top: 150px;
 }
 
+.box-arrow {
+    display: inline-block;
+    vertical-align: middle;
+    font-weight: bold;
+    font-size: 25px;
+    position: absolute;
+    right: 0;
+    bottom: 25px;
+}
+
+.box-domande {
+    padding: 20px 0px;
+    position: relative;
+}
+
 footer  {
     margin-top: 200px;
     background-color: black;
@@ -361,10 +376,20 @@ footer  {
     display: flex;
     justify-content: space-between;
     color: white;
+    margin-bottom: 50px;
+    padding-top: 30px;
 }
 
 .languages {
     color: white;
+    position: relative;
+    margin-top: 50px
+}
+
+.languages span {
+    position:absolute;
+    bottom: 5px;
+    left: 80px;
 }
 
 .plans-blue-button {
@@ -382,6 +407,14 @@ footer  {
     border: 1px solid gray;
     width: 45px;
     margin-bottom: 30px;
+}
+
+.footer-container ul li {
+    list-style: none;
+}
+
+.footer-container ul {
+    list-style: none;
 }
 
 li i {
