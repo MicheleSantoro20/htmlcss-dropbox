@@ -23,6 +23,14 @@
     text-decoration: underline;
 }
 
-.languages:hover{
+.languages:hover {
     text-decoration: underline;
+}
+
+.box-domande:hover p, .box-domande:hover .box-arrow-up {
+    display: block;
+}
+
+.box-domande:hover .box-arrow-down {
+    display: none;
 }
