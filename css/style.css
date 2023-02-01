@@ -100,12 +100,10 @@ h1 {
 }
 
 .small-txt-flex, .small-img-text {
-    height: 400px;
     width: 35%;
 }
 
 .big-img-flex, .big-txt-flex{
-    height: 400px;
     width: 65%;
 }
 
@@ -363,6 +361,7 @@ li i {
     display:flex;
     justify-content: space-around;
     align-items: center;
+    height: 300px;
 }
 
 #s-8-txt {
