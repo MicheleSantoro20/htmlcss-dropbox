@@ -18,9 +18,8 @@ nav {
 
 .navSX ul li, .navDX ul li{
     display: inline-block;
-    padding: 5px 12px;
+    padding: 29px 12px;
     vertical-align: middle;
-
 }
 
 .blue-button {
@@ -28,6 +27,16 @@ nav {
     color: white;
     display: inline-block;
     padding: 10px 12px;
+    transition: background-color 0.2s;
+}
+
+#start-button {
+    padding: 5px 12px;
+}
+
+#start-button a {
+    text-decoration: none;
+    color: white;
 }
 
 .button-space {
@@ -223,6 +232,7 @@ h3 {
     border: 1px solid gray;
     display: inline-block;
     padding: 10px;
+    transition: background-color 1s;
 }
 
 .section-5-flex {
@@ -339,6 +349,7 @@ h3 {
 #s-8-button {
     padding: 10px 30px;
     background-color: white;
+    transition: background-color 1s;
 }
 
 .section-9 {
@@ -380,7 +391,12 @@ footer  {
     padding-bottom: 50px;
 }
 
-.languages span {
+.languages a {
+    color: white;
+    text-decoration: none;
+}
+
+.languages a span {
     position:absolute;
     bottom: 55px;
     left: 80px;
@@ -423,4 +439,9 @@ li i {
 
 .footer-hr {
     width: 10%;
+}
+
+.footer-container ul li a {
+    text-decoration: none;
+    color: white;
 }

@@ -1,0 +1,28 @@
+.nav-link a{
+    text-decoration: none;
+    color: black;
+}
+
+.nav-link:hover {
+    border-bottom: 3px solid gray;
+}
+
+.blue-button:hover {
+    background-color: #86abe7;
+}
+
+.s-4-button:hover {
+    background-color: gray;
+}
+
+#s-8-button:hover {
+    background-color: gray;
+}
+
+.footer-container ul li a:hover {
+    text-decoration: underline;
+}
+
+.languages:hover{
+    text-decoration: underline;
+}
