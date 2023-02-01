@@ -8,12 +8,19 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+header{
+    position:fixed;
+    z-index: 9;
+    width: 100%;
+    background-color: white;
+}
+
 nav {
     height: 80px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-
+    border-bottom: 1px solid lightgray ;
 }
 
 .navSX ul li, .navDX ul li{
@@ -58,10 +65,12 @@ nav {
 h1 {
     padding: 50px 0px;
     font-size: 75px;
+    font-weight: bolder;
 }
 
 .section-1 {
     background-color: #b4d0e7;
+    padding-top: 80px;
 }
 
 .bi-section {
@@ -77,6 +86,7 @@ h1 {
     bottom: 20px;
     left: 0;
     font-size: 50px;
+    color: black;
 }
 
 .font {
@@ -105,6 +115,10 @@ h1 {
 h2 {
     padding-bottom: 50px;
     font-size: 35px;
+}
+
+.plans-margin h5{
+    margin-bottom: 70px;
 }
 
 .section-2-selectors {
@@ -140,7 +154,7 @@ h2 {
 
 .plans {
     width: 30%;
-    height: 900px;
+    height: 1000px;
     font-size: 16px;
     border: 2px solid gray
 }
@@ -429,8 +443,9 @@ footer  {
 }
 
 li i {
-    color: blue
+    color: blue;
 }
+
 .plans-margin ul li {
     list-style: none;
     margin: 10px;
