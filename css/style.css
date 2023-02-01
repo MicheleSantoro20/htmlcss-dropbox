@@ -196,6 +196,10 @@ h3 {
     color: gray;
 }
 
+li i {
+    color: blue;
+}
+
 .section-3 {
     margin-top: 100px;
 }
@@ -442,9 +446,6 @@ footer  {
     list-style: none;
 }
 
-li i {
-    color: blue;
-}
 
 .plans-margin ul li {
     list-style: none;
