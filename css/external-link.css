@@ -27,10 +27,10 @@
     text-decoration: underline;
 }
 
-.box-domande:hover p, .box-domande:hover .box-arrow-up {
+.box-domande:hover p, .box-domande:hover i.box-arrow-up {
     display: block;
 }
 
-.box-domande:hover .box-arrow-down {
+.box-domande:hover i {
     display: none;
 }

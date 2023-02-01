@@ -113,7 +113,6 @@ h1 {
 }
 
 #section-1-img {
-    height: 100%;
     width: 100%;
 }
 
@@ -268,9 +267,8 @@ li i {
     margin-top: 200px;
 }
 
-.s-4-img {
+.s-4-img, .card img {
     width: 100%;
-    height: 500px;
 }
 
 .s-4-txt-padding {
@@ -301,10 +299,6 @@ li i {
     width: 30%;
     height: 500px;
     margin-bottom: 50px;
-}
-
-.card img {
-    width: 100%;
 }
 
 .container-sponsor {
@@ -423,17 +417,17 @@ li i {
     font-size: 25px;
     position: absolute;
     right: 0;
-    top: 0;
+    top: 1;
 }
 
-.box-arrow-up {
+.box-domande i.box-arrow-up {
     display: none;
     vertical-align: middle;
     font-weight: bold;
     font-size: 25px;
     position: absolute;
     right: 0;
-    top: 0;
+    top: 1;
 }
 
 .box-domande {
@@ -446,6 +440,8 @@ li i {
     display: none;
 }
 
+
+                            /*Sezione Footer*/
 footer  {
     margin-top: 200px;
     background-color: black;
