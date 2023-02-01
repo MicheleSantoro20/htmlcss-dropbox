@@ -71,6 +71,12 @@ h1 {
 .section-1 {
     background-color: #b4d0e7;
     padding-top: 80px;
+
+}
+
+.section-1 .smallest-margin {
+    position: relative;
+    bottom: -80px;
 }
 
 .bi-section {
@@ -83,14 +89,14 @@ h1 {
 
 #down-arrow {
     position: absolute;
-    bottom: 20px;
+    bottom: 95px;
     left: 0;
-    font-size: 50px;
+    font-size: 40px;
     color: black;
 }
 
 .font {
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .small-txt-flex, .small-img-text {
@@ -104,7 +110,7 @@ h1 {
 }
 
 #section-1-img {
-    height: 115%;
+    height: 100%;
     width: 100%;
 }
 
@@ -280,7 +286,6 @@ li i {
     height: calc(100vw / 3);
     display: flex;
     flex-wrap: wrap;
-    background-color: cadetblue;
 }
 
 .sponsor-card {
@@ -319,7 +324,7 @@ li i {
 }
 
 .card-6 {
-    background-color: #b4d0e7;
+    background-color: #a8c9e4;
 }
 
 .card-7 {
